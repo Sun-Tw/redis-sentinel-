@@ -1,5 +1,4 @@
 安装与配置 redis哨兵模式
-redis-sentinel
 
 ```
 1.配置开启主从节点
