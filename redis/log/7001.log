@@ -1,0 +1,237 @@
+13245:C 01 Nov 2019 10:33:17.291 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13245:C 01 Nov 2019 10:33:17.291 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=13245, just started
+13245:C 01 Nov 2019 10:33:17.291 # Configuration loaded
+13246:S 01 Nov 2019 10:33:17.294 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+13246:S 01 Nov 2019 10:33:17.295 * Running mode=standalone, port=7001.
+13246:S 01 Nov 2019 10:33:17.295 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+13246:S 01 Nov 2019 10:33:17.295 # Server initialized
+13246:S 01 Nov 2019 10:33:17.295 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13246:S 01 Nov 2019 10:33:17.295 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+13246:S 01 Nov 2019 10:33:17.295 * DB loaded from disk: 0.000 seconds
+13246:S 01 Nov 2019 10:33:17.295 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+13246:S 01 Nov 2019 10:33:17.295 * Ready to accept connections
+13246:S 01 Nov 2019 10:33:17.295 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 10:33:17.295 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 10:33:17.295 * Non blocking connect for SYNC fired the event.
+13246:S 01 Nov 2019 10:33:17.295 * Master replied to PING, replication can continue...
+13246:S 01 Nov 2019 10:33:17.295 * Trying a partial resynchronization (request a37b7cb8b15de7010474d5ec6855dfad68de3a08:1).
+13246:S 01 Nov 2019 10:33:17.296 * Full resync from master: 7eaade65505897692a4c3c0dc0b6bde1b3315d7c:0
+13246:S 01 Nov 2019 10:33:17.296 * Discarding previously cached master state.
+13246:S 01 Nov 2019 10:33:17.393 * MASTER <-> REPLICA sync: receiving 175 bytes from master
+13246:S 01 Nov 2019 10:33:17.393 * MASTER <-> REPLICA sync: Flushing old data
+13246:S 01 Nov 2019 10:33:17.393 * MASTER <-> REPLICA sync: Loading DB in memory
+13246:S 01 Nov 2019 10:33:17.393 * MASTER <-> REPLICA sync: Finished with success
+13246:S 01 Nov 2019 11:35:16.647 # Connection with master lost.
+13246:S 01 Nov 2019 11:35:16.647 * Caching the disconnected master state.
+13246:S 01 Nov 2019 11:35:17.097 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:17.097 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:17.097 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:18.104 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:18.104 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:18.104 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:19.109 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:19.109 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:19.109 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:20.113 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:20.113 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:20.113 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:21.118 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:21.118 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:21.118 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:22.125 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:22.125 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:22.125 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:23.130 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:23.130 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:23.130 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:24.134 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:24.134 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:24.134 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:25.143 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:25.143 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:25.143 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:26.149 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:26.149 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:26.149 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:27.156 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:27.156 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:27.156 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:28.161 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:28.161 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:28.161 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:29.174 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:29.174 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:29.174 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:30.177 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:30.177 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:30.177 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:31.181 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:31.181 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:31.181 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:32.187 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:32.187 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:32.187 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:33.192 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:33.192 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:33.192 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:34.198 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:34.198 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:34.198 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:35.205 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:35.205 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:35.205 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:36.211 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:36.211 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:36.211 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:37.216 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:37.216 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:37.216 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:38.222 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:38.222 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:38.222 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:39.227 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:39.227 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:39.227 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:40.235 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:40.235 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:40.235 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:41.239 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:41.239 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:41.239 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:42.246 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:42.246 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:42.246 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:43.252 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:43.252 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:43.252 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:44.259 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:44.259 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:44.259 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:45.267 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:45.267 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:45.267 # Error condition on socket for SYNC: Connection refused
+13246:S 01 Nov 2019 11:35:46.273 * Connecting to MASTER 127.0.0.1:7000
+13246:S 01 Nov 2019 11:35:46.273 * MASTER <-> REPLICA sync started
+13246:S 01 Nov 2019 11:35:46.273 # Error condition on socket for SYNC: Connection refused
+13246:M 01 Nov 2019 11:35:47.036 # Setting secondary replication ID to 7eaade65505897692a4c3c0dc0b6bde1b3315d7c, valid up to offset: 670900. New replication ID is 837b966c5665cdc66e48174d7ee58d1e0f8c30ab
+13246:M 01 Nov 2019 11:35:47.036 * Discarding previously cached master state.
+13246:M 01 Nov 2019 11:35:47.036 * MASTER MODE enabled (user request from 'id=7 addr=127.0.0.1:56576 fd=11 name=sentinel-9fd05a64-cmd age=3385 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=140 qbuf-free=32628 obl=36 oll=0 omem=0 events=r cmd=exec')
+13246:M 01 Nov 2019 11:35:47.036 # CONFIG REWRITE executed with success.
+13246:M 01 Nov 2019 11:35:47.394 * Replica 127.0.0.1:7002 asks for synchronization
+13246:M 01 Nov 2019 11:35:47.394 * Partial resynchronization request from 127.0.0.1:7002 accepted. Sending 156 bytes of backlog starting from offset 670900.
+13246:M 01 Nov 2019 11:41:50.452 * Replica 127.0.0.1:7000 asks for synchronization
+13246:M 01 Nov 2019 11:41:50.452 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'd0d55ada4efcb154ab90b024e4a1a6db26279a2b', my replication IDs are '837b966c5665cdc66e48174d7ee58d1e0f8c30ab' and '7eaade65505897692a4c3c0dc0b6bde1b3315d7c')
+13246:M 01 Nov 2019 11:41:50.452 * Starting BGSAVE for SYNC with target: disk
+13246:M 01 Nov 2019 11:41:50.452 * Background saving started by pid 16731
+16731:C 01 Nov 2019 11:41:50.457 * DB saved on disk
+16731:C 01 Nov 2019 11:41:50.457 * RDB: 6 MB of memory used by copy-on-write
+13246:M 01 Nov 2019 11:41:50.522 * Background saving terminated with success
+13246:M 01 Nov 2019 11:41:50.522 * Synchronization with replica 127.0.0.1:7000 succeeded
+16803:C 01 Nov 2019 11:43:32.796 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16803:C 01 Nov 2019 11:43:32.796 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=16803, just started
+16803:C 01 Nov 2019 11:43:32.796 # Configuration loaded
+16804:M 01 Nov 2019 11:43:32.799 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+16804:M 01 Nov 2019 11:43:32.800 * Running mode=standalone, port=7001.
+16804:M 01 Nov 2019 11:43:32.800 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+16804:M 01 Nov 2019 11:43:32.800 # Server initialized
+16804:M 01 Nov 2019 11:43:32.800 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+16804:M 01 Nov 2019 11:43:32.800 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+16804:M 01 Nov 2019 11:43:32.800 * DB loaded from disk: 0.000 seconds
+16804:M 01 Nov 2019 11:43:32.800 * Ready to accept connections
+16804:M 01 Nov 2019 11:43:33.037 * Replica 127.0.0.1:7000 asks for synchronization
+16804:M 01 Nov 2019 11:43:33.037 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '837b966c5665cdc66e48174d7ee58d1e0f8c30ab', my replication IDs are '5ad78efe2596228d8b8becd9c27c2fef5a9615cc' and '0000000000000000000000000000000000000000')
+16804:M 01 Nov 2019 11:43:33.037 * Starting BGSAVE for SYNC with target: disk
+16804:M 01 Nov 2019 11:43:33.037 * Background saving started by pid 16808
+16808:C 01 Nov 2019 11:43:33.042 * DB saved on disk
+16808:C 01 Nov 2019 11:43:33.042 * RDB: 4 MB of memory used by copy-on-write
+16804:M 01 Nov 2019 11:43:33.102 * Background saving terminated with success
+16804:M 01 Nov 2019 11:43:33.102 * Synchronization with replica 127.0.0.1:7000 succeeded
+16804:M 01 Nov 2019 11:43:33.784 * Replica 127.0.0.1:7002 asks for synchronization
+16804:M 01 Nov 2019 11:43:33.784 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '837b966c5665cdc66e48174d7ee58d1e0f8c30ab', my replication IDs are '57262dbf112fa73b13d0e554c786425706c251fc' and '0000000000000000000000000000000000000000')
+16804:M 01 Nov 2019 11:43:33.784 * Starting BGSAVE for SYNC with target: disk
+16804:M 01 Nov 2019 11:43:33.785 * Background saving started by pid 16809
+16809:C 01 Nov 2019 11:43:33.795 * DB saved on disk
+16809:C 01 Nov 2019 11:43:33.795 * RDB: 6 MB of memory used by copy-on-write
+16804:M 01 Nov 2019 11:43:33.805 * Background saving terminated with success
+16804:M 01 Nov 2019 11:43:33.805 * Synchronization with replica 127.0.0.1:7002 succeeded
+17118:C 01 Nov 2019 11:48:18.890 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+17118:C 01 Nov 2019 11:48:18.890 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=17118, just started
+17118:C 01 Nov 2019 11:48:18.890 # Configuration loaded
+17119:M 01 Nov 2019 11:48:18.893 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+17119:M 01 Nov 2019 11:48:18.894 * Running mode=standalone, port=7001.
+17119:M 01 Nov 2019 11:48:18.894 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+17119:M 01 Nov 2019 11:48:18.894 # Server initialized
+17119:M 01 Nov 2019 11:48:18.894 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+17119:M 01 Nov 2019 11:48:18.894 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+17119:M 01 Nov 2019 11:48:18.894 * DB loaded from disk: 0.000 seconds
+17119:M 01 Nov 2019 11:48:18.894 * Ready to accept connections
+17119:S 01 Nov 2019 11:48:28.926 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+17119:S 01 Nov 2019 11:48:28.926 * REPLICAOF 127.0.0.1:7000 enabled (user request from 'id=3 addr=127.0.0.1:37150 fd=8 name=sentinel-148991a2-cmd age=10 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=148 qbuf-free=32620 obl=36 oll=0 omem=0 events=r cmd=exec')
+17119:S 01 Nov 2019 11:48:28.927 # CONFIG REWRITE executed with success.
+17119:S 01 Nov 2019 11:48:28.942 * Connecting to MASTER 127.0.0.1:7000
+17119:S 01 Nov 2019 11:48:28.942 * MASTER <-> REPLICA sync started
+17119:S 01 Nov 2019 11:48:28.942 * Non blocking connect for SYNC fired the event.
+17119:S 01 Nov 2019 11:48:28.942 * Master replied to PING, replication can continue...
+17119:S 01 Nov 2019 11:48:28.942 * Trying a partial resynchronization (request 775b70e2f55d4d438cb2776fc0145f29d9ab1984:1).
+17119:S 01 Nov 2019 11:48:28.943 * Full resync from master: 63533ad82ca020f812976d6f107351cbf3822181:47029
+17119:S 01 Nov 2019 11:48:28.943 * Discarding previously cached master state.
+17119:S 01 Nov 2019 11:48:28.980 * MASTER <-> REPLICA sync: receiving 192 bytes from master
+17119:S 01 Nov 2019 11:48:28.980 * MASTER <-> REPLICA sync: Flushing old data
+17119:S 01 Nov 2019 11:48:28.980 * MASTER <-> REPLICA sync: Loading DB in memory
+17119:S 01 Nov 2019 11:48:28.980 * MASTER <-> REPLICA sync: Finished with success
+17236:C 01 Nov 2019 11:50:11.499 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+17236:C 01 Nov 2019 11:50:11.499 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=17236, just started
+17236:C 01 Nov 2019 11:50:11.499 # Configuration loaded
+17237:S 01 Nov 2019 11:50:11.501 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+17237:S 01 Nov 2019 11:50:11.502 * Running mode=standalone, port=7001.
+17237:S 01 Nov 2019 11:50:11.502 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+17237:S 01 Nov 2019 11:50:11.502 # Server initialized
+17237:S 01 Nov 2019 11:50:11.502 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+17237:S 01 Nov 2019 11:50:11.502 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+17237:S 01 Nov 2019 11:50:11.502 * DB loaded from disk: 0.000 seconds
+17237:S 01 Nov 2019 11:50:11.502 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+17237:S 01 Nov 2019 11:50:11.502 * Ready to accept connections
+17237:S 01 Nov 2019 11:50:11.502 * Connecting to MASTER 127.0.0.1:7000
+17237:S 01 Nov 2019 11:50:11.502 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:50:11.503 # Error condition on socket for SYNC: Connection refused
+17237:S 01 Nov 2019 11:50:12.505 * Connecting to MASTER 127.0.0.1:7000
+17237:S 01 Nov 2019 11:50:12.505 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:50:12.505 # Error condition on socket for SYNC: Connection refused
+17237:S 01 Nov 2019 11:50:13.507 * Connecting to MASTER 127.0.0.1:7000
+17237:S 01 Nov 2019 11:50:13.507 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:50:13.507 # Error condition on socket for SYNC: Connection refused
+17237:S 01 Nov 2019 11:50:14.511 * Connecting to MASTER 127.0.0.1:7000
+17237:S 01 Nov 2019 11:50:14.512 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:50:14.512 * Non blocking connect for SYNC fired the event.
+17237:S 01 Nov 2019 11:50:14.512 * Master replied to PING, replication can continue...
+17237:S 01 Nov 2019 11:50:14.512 * Trying a partial resynchronization (request 63533ad82ca020f812976d6f107351cbf3822181:52344).
+17237:S 01 Nov 2019 11:50:14.513 * Full resync from master: 47d174726c7c70bf8ec2f464af2b993e536f0ce1:0
+17237:S 01 Nov 2019 11:50:14.513 * Discarding previously cached master state.
+17237:S 01 Nov 2019 11:50:14.584 * MASTER <-> REPLICA sync: receiving 189 bytes from master
+17237:S 01 Nov 2019 11:50:14.584 * MASTER <-> REPLICA sync: Flushing old data
+17237:S 01 Nov 2019 11:50:14.584 * MASTER <-> REPLICA sync: Loading DB in memory
+17237:S 01 Nov 2019 11:50:14.584 * MASTER <-> REPLICA sync: Finished with success
+17237:S 01 Nov 2019 11:50:24.746 # Connection with master lost.
+17237:S 01 Nov 2019 11:50:24.746 * Caching the disconnected master state.
+17237:S 01 Nov 2019 11:50:25.572 * Connecting to MASTER 127.0.0.1:7000
+17237:S 01 Nov 2019 11:50:25.572 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:50:25.572 * Non blocking connect for SYNC fired the event.
+17237:S 01 Nov 2019 11:50:25.572 * Master replied to PING, replication can continue...
+17237:S 01 Nov 2019 11:50:25.572 * Trying a partial resynchronization (request 47d174726c7c70bf8ec2f464af2b993e536f0ce1:2033).
+17237:S 01 Nov 2019 11:50:25.573 * Full resync from master: 76ea3becb45622d7e74081adb656281ac27cbb68:64330
+17237:S 01 Nov 2019 11:50:25.573 * Discarding previously cached master state.
+17237:S 01 Nov 2019 11:50:25.653 * MASTER <-> REPLICA sync: receiving 192 bytes from master
+17237:S 01 Nov 2019 11:50:25.653 * MASTER <-> REPLICA sync: Flushing old data
+17237:S 01 Nov 2019 11:50:25.653 * MASTER <-> REPLICA sync: Loading DB in memory
+17237:S 01 Nov 2019 11:50:25.653 * MASTER <-> REPLICA sync: Finished with success
+17237:S 01 Nov 2019 11:53:15.239 # Connection with master lost.
+17237:S 01 Nov 2019 11:53:15.239 * Caching the disconnected master state.
+17237:S 01 Nov 2019 11:53:15.239 * REPLICAOF 127.0.0.1:7002 enabled (user request from 'id=4 addr=127.0.0.1:39068 fd=8 name=sentinel-148991a2-cmd age=184 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=148 qbuf-free=32620 obl=36 oll=0 omem=0 events=r cmd=exec')
+17237:S 01 Nov 2019 11:53:15.239 # CONFIG REWRITE executed with success.
+17237:S 01 Nov 2019 11:53:15.388 * Connecting to MASTER 127.0.0.1:7002
+17237:S 01 Nov 2019 11:53:15.388 * MASTER <-> REPLICA sync started
+17237:S 01 Nov 2019 11:53:15.388 * Non blocking connect for SYNC fired the event.
+17237:S 01 Nov 2019 11:53:15.388 * Master replied to PING, replication can continue...
+17237:S 01 Nov 2019 11:53:15.388 * Trying a partial resynchronization (request 76ea3becb45622d7e74081adb656281ac27cbb68:97788).
+17237:S 01 Nov 2019 11:53:15.388 * Successful partial resynchronization with master.
+17237:S 01 Nov 2019 11:53:15.388 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.

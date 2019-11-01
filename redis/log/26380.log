@@ -1,0 +1,76 @@
+13543:X 01 Nov 2019 10:39:21.557 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13543:X 01 Nov 2019 10:39:21.557 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=13543, just started
+13543:X 01 Nov 2019 10:39:21.557 # Configuration loaded
+13544:X 01 Nov 2019 10:39:21.559 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+13544:X 01 Nov 2019 10:39:21.559 * Running mode=sentinel, port=26380.
+13544:X 01 Nov 2019 10:39:21.559 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+13544:X 01 Nov 2019 10:39:21.564 # Sentinel ID is 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa
+13544:X 01 Nov 2019 10:39:21.564 # +monitor master mymaster 127.0.0.1 7000 quorum 2
+13544:X 01 Nov 2019 10:39:22.184 * +sentinel sentinel f36d7d4702449b48ff85de1d612d0702914c1d9b 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 10:39:25.915 * +sentinel sentinel 148991a2cf36beff23ea474fc10c02c4ad33abd9 127.0.0.1 26381 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.736 # +sdown master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.803 # +odown master mymaster 127.0.0.1 7000 #quorum 2/2
+13544:X 01 Nov 2019 11:35:46.803 # +new-epoch 1
+13544:X 01 Nov 2019 11:35:46.803 # +try-failover master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.807 # +vote-for-leader 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa 1
+13544:X 01 Nov 2019 11:35:46.813 # f36d7d4702449b48ff85de1d612d0702914c1d9b voted for 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa 1
+13544:X 01 Nov 2019 11:35:46.813 # 148991a2cf36beff23ea474fc10c02c4ad33abd9 voted for 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa 1
+13544:X 01 Nov 2019 11:35:46.873 # +elected-leader master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.873 # +failover-state-select-slave master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.944 # +selected-slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:46.944 * +failover-state-send-slaveof-noone slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:47.035 * +failover-state-wait-promotion slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:47.196 # +promoted-slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:47.196 # +failover-state-reconf-slaves master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:47.251 * +slave-reconf-sent slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:47.921 # -odown master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:48.193 * +slave-reconf-inprog slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:48.193 * +slave-reconf-done slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:48.252 # +failover-end master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:35:48.252 # +switch-master mymaster 127.0.0.1 7000 127.0.0.1 7001
+13544:X 01 Nov 2019 11:35:48.252 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:35:48.252 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:36:18.324 # +sdown slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:41:40.118 # -sdown slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:43:33.176 * +reboot master mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:45:33.562 # +sdown master mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:45:33.702 # +new-epoch 2
+13544:X 01 Nov 2019 11:45:33.705 # +vote-for-leader 148991a2cf36beff23ea474fc10c02c4ad33abd9 2
+13544:X 01 Nov 2019 11:45:34.642 # +odown master mymaster 127.0.0.1 7001 #quorum 3/2
+13544:X 01 Nov 2019 11:45:34.642 # Next failover delay: I will not start a failover before Fri Nov  1 11:51:33 2019
+13544:X 01 Nov 2019 11:45:34.845 # +config-update-from sentinel 148991a2cf36beff23ea474fc10c02c4ad33abd9 127.0.0.1 26381 @ mymaster 127.0.0.1 7001
+13544:X 01 Nov 2019 11:45:34.845 # +switch-master mymaster 127.0.0.1 7001 127.0.0.1 7002
+13544:X 01 Nov 2019 11:45:34.845 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:45:34.845 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:46:04.941 # +sdown slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.615 # +sdown master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.691 # +odown master mymaster 127.0.0.1 7002 #quorum 3/2
+13544:X 01 Nov 2019 11:47:07.691 # +new-epoch 3
+13544:X 01 Nov 2019 11:47:07.692 # +try-failover master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.696 # +vote-for-leader 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa 3
+13544:X 01 Nov 2019 11:47:07.699 # f36d7d4702449b48ff85de1d612d0702914c1d9b voted for f36d7d4702449b48ff85de1d612d0702914c1d9b 3
+13544:X 01 Nov 2019 11:47:07.701 # 148991a2cf36beff23ea474fc10c02c4ad33abd9 voted for 9fd05a64ed6d5334590eea2654ba3f152ac8b2fa 3
+13544:X 01 Nov 2019 11:47:07.787 # +elected-leader master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.787 # +failover-state-select-slave master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.842 # +selected-slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.842 * +failover-state-send-slaveof-noone slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:07.914 * +failover-state-wait-promotion slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:08.168 # +promoted-slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:08.168 # +failover-state-reconf-slaves master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:08.169 # +failover-end master mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:47:08.169 # +switch-master mymaster 127.0.0.1 7002 127.0.0.1 7000
+13544:X 01 Nov 2019 11:47:08.169 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:47:08.169 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:47:38.196 # +sdown slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:47:38.196 # +sdown slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:48:19.672 # -sdown slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:48:45.626 # -sdown slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:48:55.558 * +convert-to-slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:49:32.137 # +sdown slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:49:46.941 # +sdown master mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:49:47.079 # +new-epoch 4
+13544:X 01 Nov 2019 11:49:47.083 # +vote-for-leader f36d7d4702449b48ff85de1d612d0702914c1d9b 4
+13544:X 01 Nov 2019 11:49:47.743 # +config-update-from sentinel f36d7d4702449b48ff85de1d612d0702914c1d9b 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+13544:X 01 Nov 2019 11:49:47.743 # +switch-master mymaster 127.0.0.1 7000 127.0.0.1 7002
+13544:X 01 Nov 2019 11:49:47.743 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+13544:X 01 Nov 2019 11:49:47.743 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002

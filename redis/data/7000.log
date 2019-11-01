@@ -1,0 +1,20 @@
+12907:C 01 Nov 2019 10:26:18.343 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12907:C 01 Nov 2019 10:26:18.343 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=12907, just started
+12907:C 01 Nov 2019 10:26:18.343 # Configuration loaded
+12908:M 01 Nov 2019 10:26:18.345 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+12908:M 01 Nov 2019 10:26:18.346 * Running mode=standalone, port=7000.
+12908:M 01 Nov 2019 10:26:18.346 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+12908:M 01 Nov 2019 10:26:18.346 # Server initialized
+12908:M 01 Nov 2019 10:26:18.346 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+12908:M 01 Nov 2019 10:26:18.346 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+12908:M 01 Nov 2019 10:26:18.346 * Ready to accept connections
+12908:M 01 Nov 2019 10:26:20.666 * Replica 127.0.0.1:7001 asks for synchronization
+12908:M 01 Nov 2019 10:26:20.666 * Full resync requested by replica 127.0.0.1:7001
+12908:M 01 Nov 2019 10:26:20.666 * Starting BGSAVE for SYNC with target: disk
+12908:M 01 Nov 2019 10:26:20.666 * Background saving started by pid 12922
+12922:C 01 Nov 2019 10:26:20.670 * DB saved on disk
+12922:C 01 Nov 2019 10:26:20.671 * RDB: 4 MB of memory used by copy-on-write
+12908:M 01 Nov 2019 10:26:20.768 * Background saving terminated with success
+12908:M 01 Nov 2019 10:26:20.768 * Synchronization with replica 127.0.0.1:7001 succeeded
+12908:M 01 Nov 2019 10:26:22.699 * Replica 127.0.0.1:7002 asks for synchronization
+12908:M 01 Nov 2019 10:26:22.699 * Partial resynchronization request from 127.0.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 1.

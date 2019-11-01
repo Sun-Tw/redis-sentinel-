@@ -1,0 +1,78 @@
+12925:C 01 Nov 2019 10:26:22.696 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12925:C 01 Nov 2019 10:26:22.696 # Redis version=5.0.4, bits=64, commit=00000000, modified=0, pid=12925, just started
+12925:C 01 Nov 2019 10:26:22.696 # Configuration loaded
+12926:S 01 Nov 2019 10:26:22.698 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+12926:S 01 Nov 2019 10:26:22.699 * Running mode=standalone, port=7002.
+12926:S 01 Nov 2019 10:26:22.699 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+12926:S 01 Nov 2019 10:26:22.699 # Server initialized
+12926:S 01 Nov 2019 10:26:22.699 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+12926:S 01 Nov 2019 10:26:22.699 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+12926:S 01 Nov 2019 10:26:22.699 * DB loaded from disk: 0.000 seconds
+12926:S 01 Nov 2019 10:26:22.699 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+12926:S 01 Nov 2019 10:26:22.699 * Ready to accept connections
+12926:S 01 Nov 2019 10:26:22.699 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:26:22.699 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:26:22.699 * Non blocking connect for SYNC fired the event.
+12926:S 01 Nov 2019 10:26:22.699 * Master replied to PING, replication can continue...
+12926:S 01 Nov 2019 10:26:22.699 * Trying a partial resynchronization (request a37b7cb8b15de7010474d5ec6855dfad68de3a08:1).
+12926:S 01 Nov 2019 10:26:22.699 * Successful partial resynchronization with master.
+12926:S 01 Nov 2019 10:26:22.699 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12926:S 01 Nov 2019 10:32:36.549 # Connection with master lost.
+12926:S 01 Nov 2019 10:32:36.549 * Caching the disconnected master state.
+12926:S 01 Nov 2019 10:32:36.976 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:36.976 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:36.976 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:37.985 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:37.985 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:37.985 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:38.998 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:38.998 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:38.999 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:40.008 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:40.008 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:40.008 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:41.018 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:41.018 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:41.018 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:42.026 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:42.026 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:42.026 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:43.033 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:43.033 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:43.033 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:44.041 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:44.041 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:44.041 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:45.049 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:45.049 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:45.049 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:46.059 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:46.059 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:46.059 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:47.069 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:47.069 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:47.069 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:48.077 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:48.077 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:48.077 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:49.084 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:49.084 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:49.084 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:50.089 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:50.089 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:50.089 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:51.096 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:51.096 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:51.096 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:52.101 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:52.101 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:52.101 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:53.112 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:53.112 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:53.112 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:54.123 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:54.123 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:54.123 # Error condition on socket for SYNC: Connection refused
+12926:S 01 Nov 2019 10:32:55.131 * Connecting to MASTER 127.0.0.1:7000
+12926:S 01 Nov 2019 10:32:55.131 * MASTER <-> REPLICA sync started
+12926:S 01 Nov 2019 10:32:55.131 # Error condition on socket for SYNC: Connection refused
